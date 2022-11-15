@@ -14,6 +14,8 @@
 		7314FF112923103D00E52CA3 /* CATAAS_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314FF102923103D00E52CA3 /* CATAAS_ClientTests.swift */; };
 		7314FF1B2923103D00E52CA3 /* CATAAS_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314FF1A2923103D00E52CA3 /* CATAAS_ClientUITests.swift */; };
 		7314FF1D2923103D00E52CA3 /* CATAAS_ClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314FF1C2923103D00E52CA3 /* CATAAS_ClientUITestsLaunchTests.swift */; };
+		7314FF2D29242F2C00E52CA3 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314FF2C29242F2C00E52CA3 /* Cat.swift */; };
+		7314FF2F2924329A00E52CA3 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7314FF2E2924329A00E52CA3 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7314FF162923103D00E52CA3 /* CATAAS ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CATAAS ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7314FF1A2923103D00E52CA3 /* CATAAS_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATAAS_ClientUITests.swift; sourceTree = "<group>"; };
 		7314FF1C2923103D00E52CA3 /* CATAAS_ClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATAAS_ClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7314FF2C29242F2C00E52CA3 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		7314FF2E2924329A00E52CA3 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				7314FEFF2923103300E52CA3 /* CATAAS_ClientApp.swift */,
 				7314FF012923103300E52CA3 /* ContentView.swift */,
+				7314FF2E2924329A00E52CA3 /* ContentViewModel.swift */,
+				7314FF2C29242F2C00E52CA3 /* Cat.swift */,
 				7314FF032923103D00E52CA3 /* Assets.xcassets */,
 				7314FF052923103D00E52CA3 /* Preview Content */,
 			);
@@ -143,6 +149,8 @@
 			dependencies = (
 			);
 			name = "CATAAS Client";
+			packageProductDependencies = (
+			);
 			productName = "CATAAS Client";
 			productReference = 7314FEFC2923103300E52CA3 /* CATAAS Client.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,8 @@
 				Base,
 			);
 			mainGroup = 7314FEF32923103300E52CA3;
+			packageReferences = (
+			);
 			productRefGroup = 7314FEFD2923103300E52CA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7314FF2F2924329A00E52CA3 /* ContentViewModel.swift in Sources */,
 				7314FF022923103300E52CA3 /* ContentView.swift in Sources */,
 				7314FF002923103300E52CA3 /* CATAAS_ClientApp.swift in Sources */,
+				7314FF2D29242F2C00E52CA3 /* Cat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
